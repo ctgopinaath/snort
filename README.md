@@ -1,15 +1,19 @@
 STEPS to Install, Configure and Demonstrate Snort in ubuntu
 
+SNORT_DEMO
+
+ <img align="center" alt="aws-cdk" width="10000000px" src="https://github.com/ctgopinaath/snort/blob/main/snort_demo.jpg" />
+
 1. Create 2 linux machine in same network  (ubuntu 22 or above version) and open the terminals of both machines in parallel (Side by side)
 2. Perform the following operations in both machines (Refer Fig:ip.jpg)
-   
+
         2.a. Identify the IP address of each machines using the following command and take a note of it
 
                     Command: ip a          [OR]  ifconfig          # take a note of the ethernet interface name. In this case it is ens5
 4. [Example] From the Diagram **Fig: snort_demo.jpg** , Consider the machine with following IP address
 
-   <img align="center" alt="aws-cdk" width="10000000px" src="https://github.com/ctgopinaath/snort/blob/main/ip.jpg" />
-        
+  
+ <img align="center" alt="aws-cdk" width="10000000px" src="https://github.com/ctgopinaath/snort/blob/main/ip.jpg" />
         10.0.30.98 = Application server (with snort)
         10.0.30.99 = Intruder's machine (person who is trying to attack the application server)
    
