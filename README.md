@@ -21,6 +21,7 @@ STEPS to Install, Configure and Demonstrate Snort in ubuntu
 
                     Command: ip a          [OR]  ifconfig          # take a note of the ethernet interface name. In this case it is ens5
  <img align="center" alt="aws-cdk" width="10000000px" src="https://github.com/ctgopinaath/snort/blob/main/ip.jpg" />   
+ 
 3. Take a note of the ethernet interface name
    
 4. Perform the following commands in Application server [ 10.0.30.98 ]
