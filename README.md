@@ -1,8 +1,10 @@
-**STEPS to Install, Configure and Demonstrate Snort in ubuntu
-**
-SNORT_DEMO
 
+SNORT_DEMO
  <img align="center" alt="aws-cdk" width="10000000px" src="https://github.com/ctgopinaath/snort/blob/main/snort_demo.jpg" />
+
+STEPS to Install, Configure and Demonstrate Snort in ubuntu
+
+
 
 1. Create 2 linux machine in same network  (ubuntu 22 or above version) and open the terminals of both machines in parallel (Side by side)
 2. Perform the following operations in both machines (Refer Fig:ip.jpg)
