@@ -6,10 +6,13 @@ STEPS to Install, Configure and Demonstrate Snort in ubuntu
         2.a. Identify the IP address of each machines using the following command and take a note of it
 
                     Command: ip a          [OR]  ifconfig          # take a note of the ethernet interface name. In this case it is ens5
-4. [Example] From the Diagram **Fig: snort_demo.jpg** , Consider the machine with following IP address 
+4. [Example] From the Diagram **Fig: snort_demo.jpg** , Consider the machine with following IP address
+
+   
         10.0.30.98 = Application server (with snort)
         10.0.30.99 = Intruder's machine (person who is trying to attack the application server)
-5. Perform the following commands in Application server [ 10.0.30.98 ]
+   
+6. Perform the following commands in Application server [ 10.0.30.98 ]
 
         4.a.  Login as a root user
             command: sudo su -  
@@ -41,7 +44,7 @@ STEPS to Install, Configure and Demonstrate Snort in ubuntu
         4.f. Verify the detailed information and current status of your server using following command   
             command: snort -T -i ens5 -c /etc/snort/snort.conf  # Refer the step 2.a and add appropriate ethernet interface of your machine here
 
-6. Perform the following commands in Intruder's machine [ 10.0.30.99 ]
+7. Perform the following commands in Intruder's machine [ 10.0.30.99 ]
    
         *** Login to Intruders machine ****
    
