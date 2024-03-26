@@ -42,7 +42,9 @@ STEPS to Install, Configure and Demonstrate Snort in ubuntu
             command: snort -T -i ens5 -c /etc/snort/snort.conf  # Refer the step 2.a and add appropriate ethernet interface of your machine here
 
 6. Perform the following commands in Intruder's machine [ 10.0.30.99 ]
+   
         *** Login to Intruders machine ****
+   
         5.a. Try to ping Application server from Intruder's machine
                 command: ping 10.0.30.99
         5.b. Access the webervers deployed in application server from Intruders machine
@@ -51,7 +53,7 @@ STEPS to Install, Configure and Demonstrate Snort in ubuntu
                    ii) curl -v http://10.0.30.98:8080
 
 
-7. Configure Snort in Application server.
+8. Configure Snort in Application server.
 
         6.a. Open the local.rules under /etc/snort/rules folder and add the following rules to configure the rules to Detect and prevent the intrusion 
 
@@ -64,13 +66,14 @@ STEPS to Install, Configure and Demonstrate Snort in ubuntu
         6.b. Execute the following command to initate the snort application and monitor the events
                 Command: snort -q -l /var/log/snort/ -i ens5 -A console -c /etc/snort/snort.conf    #Refer the step 2.a and add appropriate ethernet interface of your machine here
 
-8. Start the intrusion activity from intrusion server
+9. Start the intrusion activity from intrusion server
+
         7.a ping 10.0.30.99        
         7.b. curl -v http://10.0.30.98:80
         7.c. curl -v http://10.0.30.98:8080
 
 
-9. Verify the logs and status of snort in Application server on basis of rules that has been defined in step 6.a.ii 
+11. Verify the logs and status of snort in Application server on basis of rules that has been defined in step 6.a.ii 
 
 
 
