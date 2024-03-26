@@ -8,7 +8,7 @@ STEPS to Install, Configure and Demonstrate Snort in ubuntu
                     Command: ip a          [OR]  ifconfig          # take a note of the ethernet interface name. In this case it is ens5
 4. [Example] From the Diagram **Fig: snort_demo.jpg** , Consider the machine with following IP address
 
-   <img align="center" alt="aws-cdk" width="100px" src="https://github.com/ctgopinaath/snort/blob/main/ip.jpg" />
+   <img align="center" alt="aws-cdk" width="10000000px" src="https://github.com/ctgopinaath/snort/blob/main/ip.jpg" />
         
         10.0.30.98 = Application server (with snort)
         10.0.30.99 = Intruder's machine (person who is trying to attack the application server)
