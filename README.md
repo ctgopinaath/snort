@@ -14,6 +14,7 @@ SNORT_DEMO
 
   
  <img align="center" alt="aws-cdk" width="10000000px" src="https://github.com/ctgopinaath/snort/blob/main/ip.jpg" />
+        
         10.0.30.98 = Application server (with snort)
         10.0.30.99 = Intruder's machine (person who is trying to attack the application server)
    
