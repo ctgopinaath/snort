@@ -1,5 +1,5 @@
-STEPS to Install, Configure and Demonstrate Snort in ubuntu
-
+**STEPS to Install, Configure and Demonstrate Snort in ubuntu
+**
 SNORT_DEMO
 
  <img align="center" alt="aws-cdk" width="10000000px" src="https://github.com/ctgopinaath/snort/blob/main/snort_demo.jpg" />
